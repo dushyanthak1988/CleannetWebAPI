@@ -5,10 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.21" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CorewebAPI.Entities\CorewebAPI.Entities.csproj" />
     <ProjectReference Include="..\CorewebAPI.LoggerService\CorewebAPI.LoggerService.csproj" />
   </ItemGroup>
 

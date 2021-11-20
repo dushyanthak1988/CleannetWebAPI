@@ -28,7 +28,10 @@ namespace CorewebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.ConfigureCors();
+            services.ConfigureLoggerService();
             services.AddControllers();
+            services.ConfigurMSSQLDBContext(Configuration);
+            services.ConfigurAppSettings(Configuration);
             services.ConfigureSwagger( "Web APi", "V1");
             services.Configure<FormOptions>(o =>
             {
@@ -36,7 +39,7 @@ namespace CorewebAPI
                 o.MultipartBodyLengthLimit = int.MaxValue;
                 o.MemoryBufferThreshold = int.MaxValue;
             });
-            services.ConfigureLoggerService();
+
 
         }
 

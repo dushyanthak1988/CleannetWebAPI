@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorewebAPI", "CorewebAPI\CorewebAPI.csproj", "{3B6EB8CB-5358-4CBC-B173-0550AE2AAE02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorewebAPI.Helper", "CorewebAPI.Helper\CorewebAPI.Helper.csproj", "{17A6F885-95BF-4FEE-9E70-A4E3DB7230A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorewebAPI.Helper", "CorewebAPI.Helper\CorewebAPI.Helper.csproj", "{17A6F885-95BF-4FEE-9E70-A4E3DB7230A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorewebAPI.LoggerService", "CorewebAPI.LoggerService\CorewebAPI.LoggerService.csproj", "{31011102-94B7-45F2-8059-E3484F66FCAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorewebAPI.LoggerService", "CorewebAPI.LoggerService\CorewebAPI.LoggerService.csproj", "{31011102-94B7-45F2-8059-E3484F66FCAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorewebAPI.Entities", "CorewebAPI.Entities\CorewebAPI.Entities.csproj", "{BF428877-33E9-4CF6-9188-BD6AF208BD57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{31011102-94B7-45F2-8059-E3484F66FCAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31011102-94B7-45F2-8059-E3484F66FCAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31011102-94B7-45F2-8059-E3484F66FCAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF428877-33E9-4CF6-9188-BD6AF208BD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF428877-33E9-4CF6-9188-BD6AF208BD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF428877-33E9-4CF6-9188-BD6AF208BD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF428877-33E9-4CF6-9188-BD6AF208BD57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
