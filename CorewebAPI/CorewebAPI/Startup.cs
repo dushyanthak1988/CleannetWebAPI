@@ -32,7 +32,7 @@ namespace CorewebAPI
             services.AddControllers();
             services.ConfigurMSSQLDBContext(Configuration);
             services.ConfigurAppSettings(Configuration);
-            services.ConfigureSwagger( "Web APi", "V1");
+            services.ConfigureSwagger( "Web APi", "v1");
             services.Configure<FormOptions>(o =>
             {
                 o.ValueLengthLimit = int.MaxValue;
