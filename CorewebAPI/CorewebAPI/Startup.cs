@@ -32,6 +32,7 @@ namespace CorewebAPI
             services.AddControllers();
             services.ConfigurMSSQLDBContext(Configuration);
             services.ConfigurAppSettings(Configuration);
+            services.ConfigureHelperRepositoryWrapper();
             services.ConfigureSwagger( "Web APi", "v1");
             services.Configure<FormOptions>(o =>
             {

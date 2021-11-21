@@ -34,5 +34,12 @@ namespace CorewebAPI.Helper
             // configure strongly typed settings object
             services.Configure<AppSettings>(config.GetSection("AppSettings"));
         }
+
+        public static void ConfigureHelperRepositoryWrapper(this IServiceCollection services)
+        {
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IJwtUtils, JwtUtils>();
+            services.AddScoped<IEmail, Email>();
+        }
     }
 }

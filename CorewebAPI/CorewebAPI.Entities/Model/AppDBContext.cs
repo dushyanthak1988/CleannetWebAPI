@@ -7,6 +7,6 @@ namespace CorewebAPI.Entities.Model
         public AppDBContext(DbContextOptions<AppDBContext> options) : base(options)
         {
         }
-
+        public DbSet<User> Users { get; set; }
     }
 }
